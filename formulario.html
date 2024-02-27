@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Formulario</title>
+</head>
+<body class="body_fondo">
+<section class="form_section">
+    <h3>Breaking Bad – Que comience el juego!</h3>
+    <form action="raul.rodriguez@proeducaglobal.com" method="post" name="formulario">
+        <div class="form_div">
+            <label>Nombre</label>
+            <input class="form_input" type="text" name="nombre_pila" placeholder="Walter" required> 
+            <label>1º apellido</label>
+            <input class="form_input" type="text" name="apellido_1" placeholder="White" required>
+            <label>2º apellido</label> 
+            <input class="form_input" type="text" name="apellido_2" placeholder="Jr." required>
+        </div>
+        <div class="form_div">
+                <label>Calle</label>
+                <input class="form_input" type="text" name="calle" placeholder="Calle de la piruleta">
+                <label>Número</label>
+                <input class="form_input" type="text" name="numero" placeholder="123"> 
+                <label>Piso</label>
+                <input class="form_input" type="text" name="piso" placeholder="Bajo C"> 
+                <label> Código Postal</label>
+                <input class="form_input" type="text" name="Código postal" placeholder="xxxxx"> 
+                <label>Ciudad</label>
+                <input class="form_input" type="text" name="ciudad" placeholder="Madrid"> 
+        </div>
+        <div class="form_div">
+                <label>NIF/NIE</label>
+                <input class="form_input" type="text" name="DNI" placeholder="xxxxxxxx-X">
+                <label>Correo</label>
+                <input class="form_input" type="email" name="correo" placeholder="test@test.com" required>
+        </div>
+        <div class="form_div">
+                <input class="input_HM" type="radio" name="genero" value="H" checked>
+                <label>Hombre</label>
+                <input class="input_HM" type="radio" name="genero" value="M">
+                <label>Mujer</label>
+        </div>
+        <div class="form_div">
+            <label>Fecha nacimiento</label>
+            <input class="form_input" type="date" name="fecha_nacimiento" id="">
+        </div>
+        <div class="form_div">
+                <input list="personajes">
+                <datalist id="personajes">
+                    <option value="Jessie Pinkman"></option>
+                    <option value="Walter White"></option>
+                    <option value="Saul Goodman"></option>
+                    <option value="Gustavo Fring"></option>
+                    <option value="Pollos Hermanos"></option>
+                    <option value="Otros personaje"></option>
+                </datalist>
+                <label>Elija uno</label>
+        </div>
+        <div class="form_div">
+            <h4 id="sugerencias_titulo">Buzón de sugerencias del ususario</h4>
+            <textarea placeholder="Sugerencias" maxlength="240" cols="60" rows="5"></textarea>
+            <input class="botones" type="submit" value="Enviar">
+            <input class="botones" type="reset" value="Borrar formulario">
+            <input class="botones" type="file" name="enviar_archivo" id="">
+        </div>
+    </form> 
+</section>    
+</body>
+</html>

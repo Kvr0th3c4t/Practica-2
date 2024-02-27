@@ -1,0 +1,185 @@
+/*Carga de fuente del cliente*/
+@font-face {
+    font-family:"Breaking_Bad";
+    src: url(../font/Breaking\ Bad.ttf);
+}
+
+/*Carga de imágenes de fondo*/
+.body_fondo{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#body_tabla{
+    background-color: #0c3e11;
+    font-family: Helvetica;
+}
+
+/*Estilo del título de index.html*/
+#p_titulo{
+    text-align: center;
+    font: 46px "Breaking_Bad";
+    color: white;
+}
+
+/*Estilo imágenes de la web*/
+img{
+    display: block;
+    margin: auto;
+}
+
+/*Especificación de medidas de la imagen de logo de indedx.html*/
+#logo_bb{
+    width: 200px;
+    height: 200px;
+}
+
+/*Especificación de medidas de la imagen de poster de indedx.html*/
+#poster_bb{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+/*Especificación de estilo de las cajas del formulario*/
+.form_section{
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    background: rgb(35, 35, 35);
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 15% 5%;
+    opacity: 92%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.form_section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form_div{
+    width: 900px;
+    padding: 10px;
+    margin: 15px auto;
+    background: #624e45;
+    margin-top: 5px;
+    border: 1px solid beige;
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.form_input{
+    width: 180px;
+    background-color: #b9b5b5;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+.input_HM{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #BCC3A4;
+    margin: 10px;
+    display: inline-block;
+}
+
+.botones{
+    margin-top: 20px;
+}
+
+#sugerencias_titulo{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    width: 65px;
+    font-weight: bold;
+}
+
+textarea{
+    width: 99%;
+	height:100px;
+	border:1px solid black;
+	border-radius:3px;
+	background-color:#fbfbfb97;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+/*Especificaciones de estilo para la tabla*/
+table{
+    text-align: center;
+    background-color: #2B2C24;
+    padding: 2px;
+    
+}
+td{
+    padding: 0;
+    border: 2px solid #2B2C24;
+}
+
+.tabla_BB{
+    margin: 0 auto;
+}
+
+.elemento_tabla{
+    font-weight: bold;
+    font-size: 16px;
+}
+.nombre_tabla{
+    font-size: 10px;
+}
+
+.verde_1{
+    background-color: #B7DB24;
+}
+
+.verde_2{
+    background-color: #EFF7C4;
+}
+
+.verde_3{
+    background-color: #AB8ECE;
+}
+
+.verde_4{
+    background-color: #89A419;
+}
+.verde_5{
+    background-color: #637125;
+}
+
+.verde_6{
+    background-color: #C6E542;
+}
+.verde_7{
+    background-color: #BCC3A4;
+}
+
+.verde_8{
+    background-color: #828D4E;
+}
+
+.verde_9{
+    background-color: #828D4E;
+}
+
+.verde_10{
+    background-color: #C2C629;
+}
